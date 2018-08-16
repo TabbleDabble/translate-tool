@@ -150,10 +150,10 @@ myMsg.on('paste', function(e){
 });
 
 customerMsg.donetyping(function(){
-  translateToEng();
+  // translateToEng();
 });
 myMsg.donetyping(function(){
-  translateToLang();
+  // translateToLang();
 });
 
 $('#langInput').on('paste', function(e){
